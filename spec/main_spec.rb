@@ -6,4 +6,8 @@ describe 'main test' do
     expect(true).to eq(false)
   end
 
+  it "validates false" do
+    expect(false).to eq(true)
+  end
+
 end
